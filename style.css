@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+:root {
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+
+	--blue-7: hsl(233, 47%, 7%);
+	--blue-16: hsl(244, 38%, 16%);
+	--violet: hsl(277, 64%, 61%);
+	--white-alpha-75: hsla(0, 0%, 100%, 0.75);
+	--white-alpha-60: hsla(0, 0%, 100%, 0.6);
+
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.125;
+}
+
+ul{
+	padding: 0;
+	list-style-type: none;
+}
+
+.attribution{
+	display: none;
+}
+
+body{
+	background-color: var(--blue-7);
+	margin: 0;
+}
+
+main{
+	background-color: var(--blue-16);
+	border-radius: 24px;
+	max-width: 1024px;
+	height: 500px;
+	/* overflow: hidden; */
+ 
+	position: absolute;
+	inset: 0;
+	margin: auto;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.content{
+	padding: 40px;
+	box-shadow: inset 0 0 0 4px white;
+}
