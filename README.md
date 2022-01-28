@@ -51,6 +51,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 - Pseudo elements don't work on &lt;img&gt;
+- CSS transform doesn't work on inline elements
 - `mix-blend-mode`
 
 ```html
