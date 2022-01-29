@@ -1,89 +1,38 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## The challenge
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+Users should be able to view the optimal layout depending on their device's screen size
 
-## Overview
-
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-
-### Screenshot
+## Screenshot
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+## Links
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+-   [Live Website](https://vietan0.github.io/FM-stats-preview-card-component/)
+-   [Solution Page on Frontend Mentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-plain-css-sxez4tDRQ)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+## Built with
 
-### Links
+-   Semantic HTML5 markup
+-   CSS Variables
+-   Flexbox
+-   CSS Grid
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+## What I learned
 
-## My process
+-   [Pseudo elements don't work on &lt;img&gt;](https://stackoverflow.com/questions/5843035/does-before-not-work-on-img-elements/5843164#5843164)
+-   [CSS transform doesn't work on inline elements](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+-   You can blend images in code with [`mix-blend-mode`](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode)
 
-### Built with
+## Useful resources
 
-- Semantic HTML5 markup
-- CSS Variables
-- Flexbox
-- CSS Grid
-
-### What I learned
-
-- Pseudo elements don't work on &lt;img&gt;
-- CSS transform doesn't work on inline elements
-- `mix-blend-mode`
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.tmb{
-  width: 100%;
-	min-height: 100%;
-	object-fit: cover;
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Responsive images - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-   [Responsive images - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - Help me switch images for different screen sizes without using media queries.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+-   Frontend Mentor - [@vietan0](https://www.frontendmentor.io/profile/vietan0)
+-   Linkedin - [@vietan](https://www.linkedin.com/in/vietan/)
